@@ -4,7 +4,7 @@ aliases: ["#tool/claude-code"]
 facet: tool
 status: active
 replaced_by:
-owner: dave
+owner: core
 ---
 
 # tool/claude-code

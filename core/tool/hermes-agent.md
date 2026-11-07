@@ -4,7 +4,7 @@ aliases: ["#tool/hermes-agent"]
 facet: tool
 status: active
 replaced_by:
-owner: dave
+owner: core
 ---
 
 # tool/hermes-agent

@@ -4,7 +4,7 @@ aliases: ["#area/finance"]
 facet: area
 status: active
 replaced_by:
-owner: dave
+owner: core
 ---
 
 # area/finance

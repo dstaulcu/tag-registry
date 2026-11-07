@@ -1,4 +1,6 @@
-# Replace @dstaulcu with real groups (for example @org/core-group, @org/team-name).
+# Replace the placeholder owners with real groups (for example @org/core-group, @org/team-name).
 /core/ @dstaulcu
-/teams/dave/ @dstaulcu
 /scripts/ @dstaulcu
+# One line per team folder; nested teams can have their own owners, for example:
+# /teams/example-org/ @org/example-owners
+# /teams/example-org/division-a/branch-1/ @org/branch-1-owners

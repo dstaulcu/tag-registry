@@ -1,4 +1,4 @@
-// Generates registry.json (manifest v2) by merging core/ and every teams/<team>/ folder.
+// Generates registry.json (manifest v2) by merging core/ and every team folder under teams/ (teams may nest).
 // Usage: node scripts/build-manifest.mjs [--check]
 import { createHash } from 'node:crypto';
 import { readdirSync, readFileSync, writeFileSync, existsSync, statSync } from 'node:fs';
@@ -36,10 +36,11 @@ const errors = [];
 const tags = [];
 const teams = [];
 
-function scan(source, baseDir, baseRel) {
+function scan(source, baseDir, baseRel, isTeam) {
   for (const facet of readdirSync(baseDir).filter((d) => statSync(join(baseDir, d)).isDirectory()).sort()) {
     if (!FACETS.includes(facet)) {
-      errors.push(`${baseRel}/${facet}: unknown facet folder (facets: ${FACETS.join(', ')})`);
+      if (isTeam && existsSync(join(baseDir, facet, 'team.md'))) addTeam(join(baseDir, facet), `${baseRel}/${facet}`, source);
+      else errors.push(`${baseRel}/${facet}: unknown facet folder (facets: ${FACETS.join(', ')}) and no team.md`);
       continue;
     }
     const dir = join(baseDir, facet);
@@ -69,21 +70,30 @@ function scan(source, baseDir, baseRel) {
   }
 }
 
+function addTeam(dir, rel, parent) {
+  const name = rel.split('/').pop();
+  const id = parent ? `${parent}/${name}` : name;
+  if (!NAME.test(name)) errors.push(`${rel}: team folder must be lowercase-hyphenated`);
+  const meta = frontMatter(readFileSync(join(dir, 'team.md'), 'utf8'));
+  teams.push({
+    id,
+    name: meta.name || name,
+    description: meta.description || '',
+    level: meta.level || '',
+    parent: parent || null,
+    example: meta.example === 'true',
+  });
+  scan(id, dir, rel, true);
+}
+
 if (!existsSync(join(root, 'core'))) errors.push('core/ is missing');
-else scan('core', join(root, 'core'), 'core');
+else scan('core', join(root, 'core'), 'core', false);
 
 const teamsDir = join(root, 'teams');
 if (existsSync(teamsDir)) {
   for (const id of readdirSync(teamsDir).filter((d) => statSync(join(teamsDir, d)).isDirectory()).sort()) {
-    if (!NAME.test(id)) errors.push(`teams/${id}: team folder must be lowercase-hyphenated`);
-    const teamFile = join(teamsDir, id, 'team.md');
-    if (!existsSync(teamFile)) {
-      errors.push(`teams/${id}: team.md is missing`);
-      continue;
-    }
-    const meta = frontMatter(readFileSync(teamFile, 'utf8'));
-    teams.push({ id, name: meta.name || id, description: meta.description || '' });
-    scan(id, join(teamsDir, id), `teams/${id}`);
+    if (!existsSync(join(teamsDir, id, 'team.md'))) errors.push(`teams/${id}: team.md is missing`);
+    else addTeam(join(teamsDir, id), `teams/${id}`, null);
   }
 }
 

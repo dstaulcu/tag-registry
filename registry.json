@@ -9,9 +9,28 @@
   ],
   "teams": [
     {
-      "id": "dave",
-      "name": "Dave",
-      "description": "Personal and seed team; holds Dave's project tags."
+      "id": "example-org",
+      "name": "Example Organization",
+      "description": "Placeholder top level of a team hierarchy. Copy this tree and rename every level to match your organization.",
+      "level": "organization",
+      "parent": null,
+      "example": true
+    },
+    {
+      "id": "example-org/division-a",
+      "name": "Division A",
+      "description": "Placeholder middle tier.",
+      "level": "division",
+      "parent": "example-org",
+      "example": true
+    },
+    {
+      "id": "example-org/division-a/branch-1",
+      "name": "Branch 1",
+      "description": "Placeholder lowest tier with sample tags.",
+      "level": "branch",
+      "parent": "example-org/division-a",
+      "example": true
     }
   ],
   "tags": [
@@ -26,7 +45,7 @@
       ],
       "definition": "Money, budgeting, taxes and purchases.",
       "path": "core/area/finance.md",
-      "hash": "e27d6097d3a4226824c3117dd10e818e5c92d488a67db7cf0a2ee46cf7c81bb1"
+      "hash": "250cbf68cd37709e5ad4b2558b99d47dae20c21ba749ef7aadab159d04ca4372"
     },
     {
       "tag": "area/fitness",
@@ -39,7 +58,7 @@
       ],
       "definition": "Exercise, training and races.",
       "path": "core/area/fitness.md",
-      "hash": "f0b1c7f633eae1d9b8a9f93378a1a96c08781bbd86466710f302ae8f1fe88ce5"
+      "hash": "e7780abc20dc8069745c71432dd5523ca2d73b91e51a6fedeabdb2a9e09c30e3"
     },
     {
       "tag": "area/health",
@@ -52,7 +71,7 @@
       ],
       "definition": "Medical care, sleep, nutrition and wellbeing.",
       "path": "core/area/health.md",
-      "hash": "25bf9a33add56b096788af15ffe14e70092566b2cd14d924f9ff3a96a9b1344d"
+      "hash": "0ee276e2ffbf76f60457c24e0e9fe7ba477850075f808115e7283ec45ae37fe6"
     },
     {
       "tag": "area/home",
@@ -65,7 +84,7 @@
       ],
       "definition": "Household, family life and personal errands.",
       "path": "core/area/home.md",
-      "hash": "a3240fd7d330f3bd899b9fcde08ad6778f685bba6f3f59014dd1a82520889ff9"
+      "hash": "fb927e47c7e4d60f18434238c6c88139e53d754ff143474051eaf602aa8bdeb7"
     },
     {
       "tag": "area/learning",
@@ -78,7 +97,7 @@
       ],
       "definition": "Study, courses and skill building outside a specific project.",
       "path": "core/area/learning.md",
-      "hash": "a3a02b0d9d67ec96215e8b565c3af2f79199bc17ffa7174e255eb421e25b9087"
+      "hash": "831c5c92be020b4f4b590de2e5e6c7b81ebb8dfbaa54c48a365e229092ddb78d"
     },
     {
       "tag": "area/work",
@@ -91,7 +110,7 @@
       ],
       "definition": "Paid work or your employer's business.",
       "path": "core/area/work.md",
-      "hash": "e3ed2ec9b5936c22c51e9370fc63488ec0cea0ba63514416c012973f37a805ee"
+      "hash": "c6215efb59340096c644f0b432d3f8582ccfa49344d5339056bb93d06ffa8f6d"
     },
     {
       "tag": "technique/agent-scheduling",
@@ -104,7 +123,7 @@
       ],
       "definition": "Scheduled or agentic automation jobs and agent workflows.",
       "path": "core/technique/agent-scheduling.md",
-      "hash": "16b6c30eed7c7c0a426a7ecfe8d4d3b6f0344b7cae2cb655c1f0bb54ee2d0777"
+      "hash": "b8654d4aa24482a87911c7bee49a765e40c92393818f372c1f935ffe65370153"
     },
     {
       "tag": "technique/human-in-the-loop",
@@ -117,7 +136,7 @@
       ],
       "definition": "Drafts or automation output that a person reviews before use.",
       "path": "core/technique/human-in-the-loop.md",
-      "hash": "eb4e110cd9bc5d209c660232b0f13a1868b2ef30a59f7b8813550a2cbaa3a63c"
+      "hash": "eece120243ed1e38e2179d004c9d4cd4e01838803122220dafefe23e14d12d62"
     },
     {
       "tag": "technique/relationship-building",
@@ -130,7 +149,7 @@
       ],
       "definition": "Deliberate effort to build or maintain a personal or organizational relationship.",
       "path": "core/technique/relationship-building.md",
-      "hash": "a85478311ac6ddedf1502e4ad725222b88040d5c2a695e0325a8bda63a93c309"
+      "hash": "46849c5a5851ab502c50b99def53d4e5ed2b75f26d50eb0c408dcb28330e8fec"
     },
     {
       "tag": "tool/claude-code",
@@ -143,7 +162,7 @@
       ],
       "definition": "Claude Code CLI.",
       "path": "core/tool/claude-code.md",
-      "hash": "97749d0fcf7cc84114a25b31a867d45cc47332e842bf275edda0d33cd87bd528"
+      "hash": "75b7d1bf395ced72050042c3df0b2a04e7f2265cc894fb9a958d5d44d6130e0e"
     },
     {
       "tag": "tool/git",
@@ -156,7 +175,7 @@
       ],
       "definition": "Git source control.",
       "path": "core/tool/git.md",
-      "hash": "f2a4f0da94a600edfda54895a015a1111ba886c58321e81d41c1e67adf4e89a9"
+      "hash": "d80700ce48572faa2c8099c83efb95bd475b9ece8a63027a394c4427ef1abfdd"
     },
     {
       "tag": "tool/github",
@@ -169,7 +188,7 @@
       ],
       "definition": "GitHub hosting, repos, issues and releases.",
       "path": "core/tool/github.md",
-      "hash": "9fc95714c4d31ecdb094e3870b52a23c6a667244fc29e79c8e51d339a91b3cc4"
+      "hash": "ee6837c43f6539e22f5843d41166f103041f55a3450827504a600d52c99d0cad"
     },
     {
       "tag": "tool/gmail",
@@ -182,7 +201,7 @@
       ],
       "definition": "Gmail and Google group email.",
       "path": "core/tool/gmail.md",
-      "hash": "cebb6e0f3296c1d60c714c1346254f68a4d546a2e4b56d7096144c0fbfa097fe"
+      "hash": "272cef518747600adac270139388163cdceaf06ab8b7d9a878d334238b7c3748"
     },
     {
       "tag": "tool/golang",
@@ -195,7 +214,7 @@
       ],
       "definition": "Go language and its tooling.",
       "path": "core/tool/golang.md",
-      "hash": "1ec5dec13b406863735e781ca17930ca0e95dae6b61b1aa2e218ad1f408b0639"
+      "hash": "27395c5feed0ec4693c4c95030f6de2faa03b24ff7ec4b3f6dbc143ac81b14bb"
     },
     {
       "tag": "tool/hermes-agent",
@@ -208,7 +227,7 @@
       ],
       "definition": "Hermes Agent (Nous Research).",
       "path": "core/tool/hermes-agent.md",
-      "hash": "4a29725daa183d17675c3a0f23da7db561809bc867f23d2e96523f5ae5a596cf"
+      "hash": "0451384ac74168583468ef9cd8f0bd847afea6a0dfb1aaa2e255b4d11f0c14e9"
     },
     {
       "tag": "tool/jira",
@@ -221,7 +240,7 @@
       ],
       "definition": "Jira for tracking work items.",
       "path": "core/tool/jira.md",
-      "hash": "6c8d9dcb0f3afe622074e92b93c6fd890e6928e94307b03fc3cf94e5fa0999ff"
+      "hash": "bd95ebb2c7422f3834b16a78c7a1aa279c8795671e56f71388b6243078f42715"
     },
     {
       "tag": "tool/obsidian",
@@ -234,7 +253,7 @@
       ],
       "definition": "Obsidian app and its plug-ins.",
       "path": "core/tool/obsidian.md",
-      "hash": "3b79aacf4938ca6e6f986c84a59812636319f65a74ca54c1053cc1e0b2979ab0"
+      "hash": "8ba20e2d3c3d0646fd6bccaa31fba5aeebbdb2854f385bcfac519ed862479a1b"
     },
     {
       "tag": "tool/onenote",
@@ -247,7 +266,7 @@
       ],
       "definition": "Microsoft OneNote.",
       "path": "core/tool/onenote.md",
-      "hash": "65ad3ee9173de113a323c7b60daf6296515dff892dfcada23d089b20bcf66c40"
+      "hash": "e225af218168efb1f06d39989399c373fc025219515aa91290e28ffaabd60c79"
     },
     {
       "tag": "tool/splunk",
@@ -260,7 +279,7 @@
       ],
       "definition": "Splunk logging and analytics.",
       "path": "core/tool/splunk.md",
-      "hash": "f0153f9b7eca60419e7fab4d00bcc72c663a2b5296cf15afdc338f22d4c458b7"
+      "hash": "79f955494704a69bd3be094580ae0571fdf31b7d730fcbbfe1287179e89f6582"
     },
     {
       "tag": "with/community",
@@ -273,7 +292,7 @@
       ],
       "definition": "Neighbors, volunteer groups and community organizations.",
       "path": "core/with/community.md",
-      "hash": "a29b62bc78baa779c21fe42d7641d557a0949cec6c835544f645cc297d3af68c"
+      "hash": "1178d42499b1f2d90cc8ce6a78336f0a325d010652bbf52034a90460bba63e42"
     },
     {
       "tag": "with/customer",
@@ -286,7 +305,7 @@
       ],
       "definition": "Customers, clients and users you serve.",
       "path": "core/with/customer.md",
-      "hash": "7d747d429dc1789f05eda31aa39599ad64c205c64652b7a0d1963e4867727d95"
+      "hash": "2d6ae12183390f4ffa3123af8bae1f7873bc3485eebc9727bed5beb386eb3453"
     },
     {
       "tag": "with/family",
@@ -299,7 +318,7 @@
       ],
       "definition": "Family members and household relatives.",
       "path": "core/with/family.md",
-      "hash": "611c50ed587443898961b38b79e3822aca981a9c4b6dd7235c7387b23de5b6cc"
+      "hash": "a0df5bef736e8090e5d9e5140fdbd872cef75a8b099d376ec08d4571c2896ae4"
     },
     {
       "tag": "with/friends",
@@ -312,7 +331,7 @@
       ],
       "definition": "Friends and social circles.",
       "path": "core/with/friends.md",
-      "hash": "4cf7de5ba39c27cafe2729948aff4d1ec25ca264399da07468d36489dfe61fef"
+      "hash": "bcfb045a485e56446e6ea93a87b4e708d2a04511aa3c2a84697b3706dd84bacd"
     },
     {
       "tag": "with/team",
@@ -325,7 +344,7 @@
       ],
       "definition": "Colleagues on your own team.",
       "path": "core/with/team.md",
-      "hash": "eb4e2559750b1d570b571b2c49a9c3a8c97bbab3657d370d2919094d1eb0383b"
+      "hash": "8cf588f4f96105f178019cc765da5144b1d699353e92c1f4abfbf1b9c005d799"
     },
     {
       "tag": "with/vendor",
@@ -338,59 +357,33 @@
       ],
       "definition": "Suppliers, partners and external providers.",
       "path": "core/with/vendor.md",
-      "hash": "50457be870a00328058b8ef4e22a610971d9bc6e522c09656a31f17fe8b207ea"
+      "hash": "cdeb34ed1c8e8c5ebda756e75cae4a476d1e8f940cbb7089b15ebb408ae86552"
     },
     {
-      "tag": "area/boosters",
-      "facet": "area",
-      "source": "dave",
-      "status": "active",
-      "replaced_by": null,
-      "aliases": [
-        "#area/boosters"
-      ],
-      "definition": "Booster club volunteering.",
-      "path": "teams/dave/area/boosters.md",
-      "hash": "844dd3799a0f12faa71107bf9e5e6cf762b6ab905f58ff580eb0301a52266a98"
-    },
-    {
-      "tag": "project/brain-agent",
+      "tag": "project/example-project",
       "facet": "project",
-      "source": "dave",
-      "status": "active",
+      "source": "example-org/division-a/branch-1",
+      "status": "proposed",
       "replaced_by": null,
       "aliases": [
-        "#project/brain-agent"
+        "#project/example-project"
       ],
-      "definition": "Brain Agent and Scheduled Agents plug-in work.",
-      "path": "teams/dave/project/brain-agent.md",
-      "hash": "692ee401164882662536c67cb191b9c377a7fb0ee2a2909e61ac9826d744e1a0"
+      "definition": "Placeholder project owned by a team. Replace with a real project.",
+      "path": "teams/example-org/division-a/branch-1/project/example-project.md",
+      "hash": "eb5f00b3f3f80c18c6d35d6448e4e1fe9fd49930bf14a11ece8ca0a0bd0869c3"
     },
     {
-      "tag": "project/hermes-setup",
-      "facet": "project",
-      "source": "dave",
-      "status": "active",
+      "tag": "with/example-partner",
+      "facet": "with",
+      "source": "example-org/division-a/branch-1",
+      "status": "proposed",
       "replaced_by": null,
       "aliases": [
-        "#project/hermes-setup"
+        "#with/example-partner"
       ],
-      "definition": "Installing and configuring Hermes Agent.",
-      "path": "teams/dave/project/hermes-setup.md",
-      "hash": "4997a5c4145705e783e2b74bc4343c1cdc00aae13e151ac52e4a2c4efc8f9a71"
-    },
-    {
-      "tag": "project/obsidian-vault",
-      "facet": "project",
-      "source": "dave",
-      "status": "active",
-      "replaced_by": null,
-      "aliases": [
-        "#project/obsidian-vault"
-      ],
-      "definition": "Building and tuning an Obsidian vault.",
-      "path": "teams/dave/project/obsidian-vault.md",
-      "hash": "f61a8f13d58e8f0dc4060108c6ed01783f844af59ce155e792801581db2ebdf3"
+      "definition": "Placeholder for a named person or organization. Named parties belong in a team folder, not core.",
+      "path": "teams/example-org/division-a/branch-1/with/example-partner.md",
+      "hash": "830cf3182265e89ac3ce1d946bbd43a6b2985bd7246ea8092f17059a418ba7af"
     }
   ]
 }

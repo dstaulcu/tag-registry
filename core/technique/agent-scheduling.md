@@ -4,7 +4,7 @@ aliases: ["#technique/agent-scheduling"]
 facet: technique
 status: active
 replaced_by:
-owner: dave
+owner: core
 ---
 
 # technique/agent-scheduling

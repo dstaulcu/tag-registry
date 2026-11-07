@@ -4,7 +4,7 @@ aliases: ["#tool/splunk"]
 facet: tool
 status: active
 replaced_by:
-owner: dave
+owner: core
 ---
 
 # tool/splunk
