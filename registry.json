@@ -184,45 +184,6 @@
       "hash": "ee6837c43f6539e22f5843d41166f103041f55a3450827504a600d52c99d0cad"
     },
     {
-      "tag": "tool/gmail",
-      "facet": "tool",
-      "source": "core",
-      "status": "active",
-      "replaced_by": null,
-      "aliases": [
-        "#tool/gmail"
-      ],
-      "definition": "Gmail and Google group email.",
-      "path": "core/tool/gmail.md",
-      "hash": "272cef518747600adac270139388163cdceaf06ab8b7d9a878d334238b7c3748"
-    },
-    {
-      "tag": "tool/golang",
-      "facet": "tool",
-      "source": "core",
-      "status": "active",
-      "replaced_by": null,
-      "aliases": [
-        "#tool/golang"
-      ],
-      "definition": "Go language and its tooling.",
-      "path": "core/tool/golang.md",
-      "hash": "27395c5feed0ec4693c4c95030f6de2faa03b24ff7ec4b3f6dbc143ac81b14bb"
-    },
-    {
-      "tag": "tool/hermes-agent",
-      "facet": "tool",
-      "source": "core",
-      "status": "active",
-      "replaced_by": null,
-      "aliases": [
-        "#tool/hermes-agent"
-      ],
-      "definition": "Hermes Agent (Nous Research).",
-      "path": "core/tool/hermes-agent.md",
-      "hash": "0451384ac74168583468ef9cd8f0bd847afea6a0dfb1aaa2e255b4d11f0c14e9"
-    },
-    {
       "tag": "tool/jira",
       "facet": "tool",
       "source": "core",
@@ -247,32 +208,6 @@
       "definition": "Obsidian app and its plug-ins.",
       "path": "core/tool/obsidian.md",
       "hash": "8ba20e2d3c3d0646fd6bccaa31fba5aeebbdb2854f385bcfac519ed862479a1b"
-    },
-    {
-      "tag": "tool/onenote",
-      "facet": "tool",
-      "source": "core",
-      "status": "active",
-      "replaced_by": null,
-      "aliases": [
-        "#tool/onenote"
-      ],
-      "definition": "Microsoft OneNote.",
-      "path": "core/tool/onenote.md",
-      "hash": "e225af218168efb1f06d39989399c373fc025219515aa91290e28ffaabd60c79"
-    },
-    {
-      "tag": "tool/splunk",
-      "facet": "tool",
-      "source": "core",
-      "status": "active",
-      "replaced_by": null,
-      "aliases": [
-        "#tool/splunk"
-      ],
-      "definition": "Splunk logging and analytics.",
-      "path": "core/tool/splunk.md",
-      "hash": "79f955494704a69bd3be094580ae0571fdf31b7d730fcbbfe1287179e89f6582"
     },
     {
       "tag": "with/community",
