@@ -116,7 +116,7 @@
       ],
       "definition": "Scheduled or agentic automation jobs and agent workflows.",
       "path": "core/technique/agent-scheduling.md",
-      "hash": "4529d5ea5ff5d9beb3a191b53e93e4cb43ef1608e892cc9beed7a0b7ca6fda8a"
+      "hash": "abf3075dbf2690df824376ede063ba5fe75510eb8e6b4692cde0964704f20196"
     },
     {
       "tag": "technique/human-in-the-loop",
@@ -129,7 +129,7 @@
       ],
       "definition": "Drafts or automation output that a person reviews before use.",
       "path": "core/technique/human-in-the-loop.md",
-      "hash": "aba234bf92f7a3b1b7693c3fe3925be166f779badc800d2440d93d6181692366"
+      "hash": "ed928f1e68ec9b2a509b647e8df8c1cd00f787d6d6b63831e4285a09a9bc616f"
     },
     {
       "tag": "technique/relationship-building",
@@ -142,7 +142,7 @@
       ],
       "definition": "Deliberate effort to build or maintain a personal or organizational relationship.",
       "path": "core/technique/relationship-building.md",
-      "hash": "5a084d41cb992b3b6f4dae1cd27ade31c08ef75d1a8f6bc566a53bbbd94d2269"
+      "hash": "1c8ee370177a0f217e2e9d490416e020742141458d224ca638c194e0442416c9"
     },
     {
       "tag": "tool/claude-code",
@@ -155,7 +155,7 @@
       ],
       "definition": "Claude Code CLI.",
       "path": "core/tool/claude-code.md",
-      "hash": "fe9d4e58a3053437506164867cd806f690eae56a2d59ad1db3876f158553fd81"
+      "hash": "bb28ad71ab645f830e9affc00f00a520ccec6860d196bbec5c6da16aec02afcb"
     },
     {
       "tag": "tool/git",
@@ -168,7 +168,7 @@
       ],
       "definition": "Git source control.",
       "path": "core/tool/git.md",
-      "hash": "68490ca4159d012893cd9749fc022946f0d0781ae1301e8f2488571c2a742b92"
+      "hash": "faae81046e6a615f3d066670fccdfc28c3a8b71bc171970e396823bd730c3d59"
     },
     {
       "tag": "tool/github",
@@ -181,7 +181,7 @@
       ],
       "definition": "GitHub hosting, repos, issues and releases.",
       "path": "core/tool/github.md",
-      "hash": "33c0100a4dcb5f20f7d26b861c198266a347d21f594e1e196eb828f1a61fde71"
+      "hash": "79b6cffca4a37a6e4543036fdcdae4d6287c6cfe1826dbb59e296f2d0fe19e83"
     },
     {
       "tag": "tool/jira",
