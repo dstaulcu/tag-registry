@@ -2,7 +2,7 @@
 
 A shared vocabulary of tags, kept in one repository, so people, teams and automated agents describe their work the same way. Consistent tags let you search, filter and roll up work across notes, tools and teams, at home or at work, without everyone retagging by hand.
 
-Any tool can read the registry: it is plain markdown notes plus a JSON manifest. [Obsidian](https://obsidian.md) is the first integration, but nothing here depends on it. APIs, MCP tools or internal mirrors may serve the same manifest; this repo is the source.
+Any tool can read the registry: it is plain markdown notes plus a JSON manifest. [Obsidian](https://obsidian.md) is the first integration, via the [Tag Registry Client](https://github.com/dstaulcu/obsidian-tag-registry-client) plugin (see the [showcase](docs/showcase.md)), but nothing here depends on it. APIs, MCP tools or internal mirrors may serve the same manifest; this repo is the source.
 
 **New here?** Read [why a shared tag registry helps](docs/why.md). **Building something?** Start with the [specification](docs/specification.md) and the [docs index](docs/README.md).
 
