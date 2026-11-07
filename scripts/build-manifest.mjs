@@ -1,4 +1,4 @@
-// Generates glossary.json (manifest v2) by merging core/ and every teams/<team>/ folder.
+// Generates registry.json (manifest v2) by merging core/ and every teams/<team>/ folder.
 // Usage: node scripts/build-manifest.mjs [--check]
 import { createHash } from 'node:crypto';
 import { readdirSync, readFileSync, writeFileSync, existsSync, statSync } from 'node:fs';
@@ -101,16 +101,16 @@ if (errors.length) {
   process.exit(1);
 }
 
-const manifestPath = join(root, 'glossary.json');
+const manifestPath = join(root, 'registry.json');
 const next = JSON.stringify({ version: 2, facets: FACETS, teams, tags }, null, 2) + '\n';
 if (check) {
   const current = existsSync(manifestPath) ? readFileSync(manifestPath, 'utf8') : '';
   if (current !== next) {
-    console.error('glossary.json is stale. Run: npm run manifest');
+    console.error('registry.json is stale. Run: npm run manifest');
     process.exit(1);
   }
-  console.log(`glossary.json up to date (${tags.length} tags, ${teams.length} teams)`);
+  console.log(`registry.json up to date (${tags.length} tags, ${teams.length} teams)`);
 } else {
   writeFileSync(manifestPath, next);
-  console.log(`Wrote glossary.json (${tags.length} tags, ${teams.length} teams)`);
+  console.log(`Wrote registry.json (${tags.length} tags, ${teams.length} teams)`);
 }
