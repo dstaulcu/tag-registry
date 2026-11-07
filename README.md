@@ -1,6 +1,14 @@
 # tag-registry
 
-The shared tag registry: one public repo that is the single source of truth for a six-facet Obsidian tag scheme, so scheduled agents can roll up work across vaults and teams. APIs, MCP tools or internal mirrors may serve the same manifest, but this repo is the source.
+A shared vocabulary of tags, kept in one repository, so people, teams and automated agents describe their work the same way. Consistent tags let you search, filter and roll up work across notes, tools and teams, at home or at work, without everyone retagging by hand.
+
+Any tool can read the registry: it is plain markdown notes plus a JSON manifest. [Obsidian](https://obsidian.md) is the first integration, but nothing here depends on it. APIs, MCP tools or internal mirrors may serve the same manifest; this repo is the source.
+
+**New here?** Read [why a shared tag registry helps](docs/why.md). **Building something?** Start with the [specification](docs/specification.md) and the [docs index](docs/README.md).
+
+## Facets
+
+Every tag is `<facet>/<name>`. Each facet answers a different question about a piece of work, and the set of facets can grow over time; the manifest's `facets` list is authoritative. Current core facets:
 
 | Facet | Tag | Meaning |
 | --- | --- | --- |
@@ -73,8 +81,5 @@ Consumers fetch the manifest over HTTPS, keep the core plus the teams they chose
 
 ## Stage two: federation
 If one repo is outgrown, each team gets its own repo from a template. The core repo keeps the facets and a list of team repo locations, and an aggregator still produces one combined manifest in the format above, so consuming tools do not change.
-
-## Docs
-Start at [docs/README.md](docs/README.md): why a registry helps, the specification for builders, client guidance, ideas and a showcase.
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) to propose a tag.

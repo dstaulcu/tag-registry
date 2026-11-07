@@ -1,6 +1,6 @@
 # Building a client
 
-A client reads a registry and puts its tags somewhere useful: an Obsidian vault, an editor, a CLI, a linter, an agent's prompt. Read the [specification](specification.md) first; this page is the practical advice.
+A client reads a registry and puts its tags somewhere useful: a note-taking vault such as Obsidian, an editor, a CLI, a linter, an agent's prompt. Read the [specification](specification.md) first; this page is the practical advice.
 
 ## Fetching
 1. Get `registry.json` from the repository root. Anonymous raw HTTPS works for public repos. A local `git` shallow clone or a read-only token over the host's API works for private ones.
