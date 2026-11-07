@@ -9,7 +9,7 @@ The shared tag registry: one public repo that is the single source of truth for 
 | objective | `#objective/<goal>` | A goal or direction that projects serve |
 | project | `#project/<name>` | A project or initiative, including a trip |
 | technique | `#technique/<capability>` | A capability or method, independent of tool |
-| tool | `#tool/<name>` | A product or project name |
+| tool | `#tool/<name>` | A named tool, service, software, product or system you use |
 
 ## Layout
 ```
@@ -38,7 +38,7 @@ Each tag is one note named `<name>.md`. The `aliases` front matter equals the ta
 ## Naming rules
 - Lowercase, hyphen-separated, no spaces.
 - Techniques are named by capability, not tool.
-- Tools are named by product or project name.
+- Tools are named by the name of the service, software, product or system itself, not by a project that uses it.
 - Named people and organizations go under `teams/<team>/with/`, never in core.
 - Tag names are unique across core and all teams.
 - Never delete a tag. Mark it `status: deprecated` and set `replaced_by`.
