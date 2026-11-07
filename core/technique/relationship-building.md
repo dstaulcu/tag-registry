@@ -11,4 +11,5 @@ owner: core
 
 Definition: Deliberate effort to build or maintain a personal or organizational relationship.
 
-Use when: Pair with a with/ tag for the party involved.
+Use when: Building or maintaining the relationship is the aim; pair with a with/ tag for the party involved.
+Don't use when: It is routine collaboration with no relationship goal.
