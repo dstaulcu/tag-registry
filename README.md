@@ -74,4 +74,7 @@ Consumers fetch the manifest over HTTPS, keep the core plus the teams they chose
 ## Stage two: federation
 If one repo is outgrown, each team gets its own repo from a template. The core repo keeps the facets and a list of team repo locations, and an aggregator still produces one combined manifest in the format above, so consuming tools do not change.
 
+## Docs
+Start at [docs/README.md](docs/README.md): why a registry helps, the specification for builders, client guidance, ideas and a showcase.
+
 See [CONTRIBUTING.md](CONTRIBUTING.md) to propose a tag.

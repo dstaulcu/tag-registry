@@ -8,6 +8,8 @@
 
 Deprecating: set `status: deprecated` and `replaced_by: <facet>/<name>`. Never delete a note.
 
+Showcase: add an entry to `docs/showcase.md` by pull request, in the format described there.
+
 New facets: open an issue or pull request against `core/facets.md`; the core group decides.
 
 History note: the registry has been restructured in place a few times while it had no other adopters: plural tags became singular (`project/`, `tool/`), then `tactic/` became `technique/` and `community/` was replaced by `area/` and `with/`. Do not rename tags this way again.
