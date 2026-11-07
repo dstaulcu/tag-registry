@@ -1,9 +1,10 @@
 {
   "version": 2,
   "facets": [
+    "area",
+    "with",
     "project",
-    "community",
-    "tactic",
+    "technique",
     "tool"
   ],
   "teams": [
@@ -15,30 +16,121 @@
   ],
   "tags": [
     {
-      "tag": "tactic/agent-scheduling",
-      "facet": "tactic",
+      "tag": "area/finance",
+      "facet": "area",
       "source": "core",
       "status": "active",
       "replaced_by": null,
       "aliases": [
-        "#tactic/agent-scheduling"
+        "#area/finance"
       ],
-      "definition": "Scheduled or agentic automation jobs and agent workflows.",
-      "path": "core/tactic/agent-scheduling.md",
-      "hash": "67a5afa913d568a7ffca51f8ec83e851bbce192a8014b337f9c3ed82e8a734a4"
+      "definition": "Money, budgeting, taxes and purchases.",
+      "path": "core/area/finance.md",
+      "hash": "e27d6097d3a4226824c3117dd10e818e5c92d488a67db7cf0a2ee46cf7c81bb1"
     },
     {
-      "tag": "tactic/human-in-the-loop",
-      "facet": "tactic",
+      "tag": "area/fitness",
+      "facet": "area",
       "source": "core",
       "status": "active",
       "replaced_by": null,
       "aliases": [
-        "#tactic/human-in-the-loop"
+        "#area/fitness"
+      ],
+      "definition": "Exercise, training and races.",
+      "path": "core/area/fitness.md",
+      "hash": "f0b1c7f633eae1d9b8a9f93378a1a96c08781bbd86466710f302ae8f1fe88ce5"
+    },
+    {
+      "tag": "area/health",
+      "facet": "area",
+      "source": "core",
+      "status": "active",
+      "replaced_by": null,
+      "aliases": [
+        "#area/health"
+      ],
+      "definition": "Medical care, sleep, nutrition and wellbeing.",
+      "path": "core/area/health.md",
+      "hash": "25bf9a33add56b096788af15ffe14e70092566b2cd14d924f9ff3a96a9b1344d"
+    },
+    {
+      "tag": "area/home",
+      "facet": "area",
+      "source": "core",
+      "status": "active",
+      "replaced_by": null,
+      "aliases": [
+        "#area/home"
+      ],
+      "definition": "Household, family life and personal errands.",
+      "path": "core/area/home.md",
+      "hash": "a3240fd7d330f3bd899b9fcde08ad6778f685bba6f3f59014dd1a82520889ff9"
+    },
+    {
+      "tag": "area/learning",
+      "facet": "area",
+      "source": "core",
+      "status": "active",
+      "replaced_by": null,
+      "aliases": [
+        "#area/learning"
+      ],
+      "definition": "Study, courses and skill building outside a specific project.",
+      "path": "core/area/learning.md",
+      "hash": "a3a02b0d9d67ec96215e8b565c3af2f79199bc17ffa7174e255eb421e25b9087"
+    },
+    {
+      "tag": "area/work",
+      "facet": "area",
+      "source": "core",
+      "status": "active",
+      "replaced_by": null,
+      "aliases": [
+        "#area/work"
+      ],
+      "definition": "Paid work or your employer's business.",
+      "path": "core/area/work.md",
+      "hash": "e3ed2ec9b5936c22c51e9370fc63488ec0cea0ba63514416c012973f37a805ee"
+    },
+    {
+      "tag": "technique/agent-scheduling",
+      "facet": "technique",
+      "source": "core",
+      "status": "active",
+      "replaced_by": null,
+      "aliases": [
+        "#technique/agent-scheduling"
+      ],
+      "definition": "Scheduled or agentic automation jobs and agent workflows.",
+      "path": "core/technique/agent-scheduling.md",
+      "hash": "16b6c30eed7c7c0a426a7ecfe8d4d3b6f0344b7cae2cb655c1f0bb54ee2d0777"
+    },
+    {
+      "tag": "technique/human-in-the-loop",
+      "facet": "technique",
+      "source": "core",
+      "status": "active",
+      "replaced_by": null,
+      "aliases": [
+        "#technique/human-in-the-loop"
       ],
       "definition": "Drafts or automation output that a person reviews before use.",
-      "path": "core/tactic/human-in-the-loop.md",
-      "hash": "fd386bcebf8581145bb51c84b4a2d8b91d54ff275176fadca7e8e7a49b152c28"
+      "path": "core/technique/human-in-the-loop.md",
+      "hash": "eb4e110cd9bc5d209c660232b0f13a1868b2ef30a59f7b8813550a2cbaa3a63c"
+    },
+    {
+      "tag": "technique/relationship-building",
+      "facet": "technique",
+      "source": "core",
+      "status": "active",
+      "replaced_by": null,
+      "aliases": [
+        "#technique/relationship-building"
+      ],
+      "definition": "Deliberate effort to build or maintain a personal or organizational relationship.",
+      "path": "core/technique/relationship-building.md",
+      "hash": "a85478311ac6ddedf1502e4ad725222b88040d5c2a695e0325a8bda63a93c309"
     },
     {
       "tag": "tool/claude-code",
@@ -169,6 +261,97 @@
       "definition": "Splunk logging and analytics.",
       "path": "core/tool/splunk.md",
       "hash": "f0153f9b7eca60419e7fab4d00bcc72c663a2b5296cf15afdc338f22d4c458b7"
+    },
+    {
+      "tag": "with/community",
+      "facet": "with",
+      "source": "core",
+      "status": "active",
+      "replaced_by": null,
+      "aliases": [
+        "#with/community"
+      ],
+      "definition": "Neighbors, volunteer groups and community organizations.",
+      "path": "core/with/community.md",
+      "hash": "a29b62bc78baa779c21fe42d7641d557a0949cec6c835544f645cc297d3af68c"
+    },
+    {
+      "tag": "with/customer",
+      "facet": "with",
+      "source": "core",
+      "status": "active",
+      "replaced_by": null,
+      "aliases": [
+        "#with/customer"
+      ],
+      "definition": "Customers, clients and users you serve.",
+      "path": "core/with/customer.md",
+      "hash": "7d747d429dc1789f05eda31aa39599ad64c205c64652b7a0d1963e4867727d95"
+    },
+    {
+      "tag": "with/family",
+      "facet": "with",
+      "source": "core",
+      "status": "active",
+      "replaced_by": null,
+      "aliases": [
+        "#with/family"
+      ],
+      "definition": "Family members and household relatives.",
+      "path": "core/with/family.md",
+      "hash": "611c50ed587443898961b38b79e3822aca981a9c4b6dd7235c7387b23de5b6cc"
+    },
+    {
+      "tag": "with/friends",
+      "facet": "with",
+      "source": "core",
+      "status": "active",
+      "replaced_by": null,
+      "aliases": [
+        "#with/friends"
+      ],
+      "definition": "Friends and social circles.",
+      "path": "core/with/friends.md",
+      "hash": "4cf7de5ba39c27cafe2729948aff4d1ec25ca264399da07468d36489dfe61fef"
+    },
+    {
+      "tag": "with/team",
+      "facet": "with",
+      "source": "core",
+      "status": "active",
+      "replaced_by": null,
+      "aliases": [
+        "#with/team"
+      ],
+      "definition": "Colleagues on your own team.",
+      "path": "core/with/team.md",
+      "hash": "eb4e2559750b1d570b571b2c49a9c3a8c97bbab3657d370d2919094d1eb0383b"
+    },
+    {
+      "tag": "with/vendor",
+      "facet": "with",
+      "source": "core",
+      "status": "active",
+      "replaced_by": null,
+      "aliases": [
+        "#with/vendor"
+      ],
+      "definition": "Suppliers, partners and external providers.",
+      "path": "core/with/vendor.md",
+      "hash": "50457be870a00328058b8ef4e22a610971d9bc6e522c09656a31f17fe8b207ea"
+    },
+    {
+      "tag": "area/boosters",
+      "facet": "area",
+      "source": "dave",
+      "status": "active",
+      "replaced_by": null,
+      "aliases": [
+        "#area/boosters"
+      ],
+      "definition": "Booster club volunteering.",
+      "path": "teams/dave/area/boosters.md",
+      "hash": "844dd3799a0f12faa71107bf9e5e6cf762b6ab905f58ff580eb0301a52266a98"
     },
     {
       "tag": "project/brain-agent",

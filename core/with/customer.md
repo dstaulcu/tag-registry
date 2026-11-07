@@ -1,0 +1,16 @@
+---
+tag: with/customer
+aliases: ["#with/customer"]
+facet: with
+status: active
+replaced_by:
+owner: dave
+---
+
+# with/customer
+
+Definition: Customers, clients and users you serve.
+
+Use when: The note involves a customer or client.
+Don't use when: 
+Related: 
