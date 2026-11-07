@@ -11,6 +11,4 @@ owner: example-org/example-component
 
 Definition: Placeholder goal that several projects serve. Replace with a real objective.
 
-Use when: 
-Don't use when: 
 Related: [[project/example-project]]

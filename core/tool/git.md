@@ -10,7 +10,3 @@ owner: core
 # tool/git
 
 Definition: Git source control.
-
-Use when: 
-Don't use when: 
-Related: 

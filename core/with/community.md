@@ -12,5 +12,3 @@ owner: core
 Definition: Neighbors, volunteer groups and community organizations.
 
 Use when: The note involves a group you belong to or serve.
-Don't use when: 
-Related: 

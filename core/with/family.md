@@ -12,5 +12,3 @@ owner: core
 Definition: Family members and household relatives.
 
 Use when: The note involves family.
-Don't use when: 
-Related: 

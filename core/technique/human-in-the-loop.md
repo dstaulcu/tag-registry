@@ -10,7 +10,3 @@ owner: core
 # technique/human-in-the-loop
 
 Definition: Drafts or automation output that a person reviews before use.
-
-Use when: 
-Don't use when: 
-Related: 

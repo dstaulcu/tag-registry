@@ -11,6 +11,4 @@ owner: example-org/example-component
 
 Definition: Placeholder for an internal service or system only this team uses. Shared tools such as git or github live in core.
 
-Use when: 
-Don't use when: 
 Related: [[tool/github]]

@@ -12,5 +12,3 @@ owner: core
 Definition: Friends and social circles.
 
 Use when: The note involves friends.
-Don't use when: 
-Related: 
