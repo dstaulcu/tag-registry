@@ -10,7 +10,3 @@ owner: core
 # tool/obsidian
 
 Definition: Obsidian app and its plug-ins.
-
-Use when: 
-Don't use when: 
-Related: 

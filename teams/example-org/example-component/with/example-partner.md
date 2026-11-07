@@ -10,7 +10,3 @@ owner: example-org/example-component
 # with/example-partner
 
 Definition: Placeholder for a named person or organization. Named parties belong in a team folder, not core.
-
-Use when: 
-Don't use when: 
-Related: 

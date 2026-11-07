@@ -10,7 +10,3 @@ owner: core
 # tool/github
 
 Definition: GitHub hosting, repos, issues and releases.
-
-Use when: 
-Don't use when: 
-Related: 

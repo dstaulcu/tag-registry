@@ -10,7 +10,3 @@ owner: core
 # technique/agent-scheduling
 
 Definition: Scheduled or agentic automation jobs and agent workflows.
-
-Use when: 
-Don't use when: 
-Related: 

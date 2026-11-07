@@ -12,5 +12,3 @@ owner: core
 Definition: Exercise, training and races.
 
 Use when: Workouts, runs and training plans.
-Don't use when: 
-Related: 

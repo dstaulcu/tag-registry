@@ -12,5 +12,3 @@ owner: core
 Definition: Paid work or your employer's business.
 
 Use when: The effort is part of your job.
-Don't use when: 
-Related: 

@@ -38,7 +38,7 @@
       ],
       "definition": "Money, budgeting, taxes and purchases.",
       "path": "core/area/finance.md",
-      "hash": "250cbf68cd37709e5ad4b2558b99d47dae20c21ba749ef7aadab159d04ca4372"
+      "hash": "73b8c749e2b21aec82c7f4d1e9fd57a70cdf00cee2469c252e016f7d6975712c"
     },
     {
       "tag": "area/fitness",
@@ -51,7 +51,7 @@
       ],
       "definition": "Exercise, training and races.",
       "path": "core/area/fitness.md",
-      "hash": "e7780abc20dc8069745c71432dd5523ca2d73b91e51a6fedeabdb2a9e09c30e3"
+      "hash": "64c9807691266d407de177cc549e964458c2efda5bf05fc59f4982a9d2493df4"
     },
     {
       "tag": "area/health",
@@ -64,7 +64,7 @@
       ],
       "definition": "Medical care, sleep, nutrition and wellbeing.",
       "path": "core/area/health.md",
-      "hash": "0ee276e2ffbf76f60457c24e0e9fe7ba477850075f808115e7283ec45ae37fe6"
+      "hash": "a046d4b57db229175b280ceca01d29b6417af4436bf87cf6eff77f680dc06306"
     },
     {
       "tag": "area/home",
@@ -77,7 +77,7 @@
       ],
       "definition": "Household, family life and personal errands.",
       "path": "core/area/home.md",
-      "hash": "fb927e47c7e4d60f18434238c6c88139e53d754ff143474051eaf602aa8bdeb7"
+      "hash": "765f7c208cc243b26acbe2177d20cb8ee3d41f2d4f488471871e8244078efc29"
     },
     {
       "tag": "area/learning",
@@ -90,7 +90,7 @@
       ],
       "definition": "Study, courses and skill building outside a specific project.",
       "path": "core/area/learning.md",
-      "hash": "831c5c92be020b4f4b590de2e5e6c7b81ebb8dfbaa54c48a365e229092ddb78d"
+      "hash": "6d29142ae9a005623e001ecb5812699babba65b25c2664903d72243cedb570ed"
     },
     {
       "tag": "area/work",
@@ -103,7 +103,7 @@
       ],
       "definition": "Paid work or your employer's business.",
       "path": "core/area/work.md",
-      "hash": "c6215efb59340096c644f0b432d3f8582ccfa49344d5339056bb93d06ffa8f6d"
+      "hash": "c879cd569887d2bb7ba7a7db989ad60dfff42d12aaa27e38f48aa6fd102a6bfa"
     },
     {
       "tag": "technique/agent-scheduling",
@@ -116,7 +116,7 @@
       ],
       "definition": "Scheduled or agentic automation jobs and agent workflows.",
       "path": "core/technique/agent-scheduling.md",
-      "hash": "b8654d4aa24482a87911c7bee49a765e40c92393818f372c1f935ffe65370153"
+      "hash": "4529d5ea5ff5d9beb3a191b53e93e4cb43ef1608e892cc9beed7a0b7ca6fda8a"
     },
     {
       "tag": "technique/human-in-the-loop",
@@ -129,7 +129,7 @@
       ],
       "definition": "Drafts or automation output that a person reviews before use.",
       "path": "core/technique/human-in-the-loop.md",
-      "hash": "eece120243ed1e38e2179d004c9d4cd4e01838803122220dafefe23e14d12d62"
+      "hash": "aba234bf92f7a3b1b7693c3fe3925be166f779badc800d2440d93d6181692366"
     },
     {
       "tag": "technique/relationship-building",
@@ -142,7 +142,7 @@
       ],
       "definition": "Deliberate effort to build or maintain a personal or organizational relationship.",
       "path": "core/technique/relationship-building.md",
-      "hash": "46849c5a5851ab502c50b99def53d4e5ed2b75f26d50eb0c408dcb28330e8fec"
+      "hash": "5a084d41cb992b3b6f4dae1cd27ade31c08ef75d1a8f6bc566a53bbbd94d2269"
     },
     {
       "tag": "tool/claude-code",
@@ -155,7 +155,7 @@
       ],
       "definition": "Claude Code CLI.",
       "path": "core/tool/claude-code.md",
-      "hash": "75b7d1bf395ced72050042c3df0b2a04e7f2265cc894fb9a958d5d44d6130e0e"
+      "hash": "fe9d4e58a3053437506164867cd806f690eae56a2d59ad1db3876f158553fd81"
     },
     {
       "tag": "tool/git",
@@ -168,7 +168,7 @@
       ],
       "definition": "Git source control.",
       "path": "core/tool/git.md",
-      "hash": "d80700ce48572faa2c8099c83efb95bd475b9ece8a63027a394c4427ef1abfdd"
+      "hash": "68490ca4159d012893cd9749fc022946f0d0781ae1301e8f2488571c2a742b92"
     },
     {
       "tag": "tool/github",
@@ -181,7 +181,7 @@
       ],
       "definition": "GitHub hosting, repos, issues and releases.",
       "path": "core/tool/github.md",
-      "hash": "ee6837c43f6539e22f5843d41166f103041f55a3450827504a600d52c99d0cad"
+      "hash": "33c0100a4dcb5f20f7d26b861c198266a347d21f594e1e196eb828f1a61fde71"
     },
     {
       "tag": "tool/jira",
@@ -194,7 +194,7 @@
       ],
       "definition": "Jira for tracking work items.",
       "path": "core/tool/jira.md",
-      "hash": "bd95ebb2c7422f3834b16a78c7a1aa279c8795671e56f71388b6243078f42715"
+      "hash": "f7980a84d59abb4ea93bb1bee357d9844521fdfce1461523b69771657e75db77"
     },
     {
       "tag": "tool/obsidian",
@@ -207,7 +207,7 @@
       ],
       "definition": "Obsidian app and its plug-ins.",
       "path": "core/tool/obsidian.md",
-      "hash": "8ba20e2d3c3d0646fd6bccaa31fba5aeebbdb2854f385bcfac519ed862479a1b"
+      "hash": "8d2943499da7cd510877a6a7b1a2061f2053fb9ad29bf1598d4d2cf8d0aa31e1"
     },
     {
       "tag": "with/community",
@@ -220,7 +220,7 @@
       ],
       "definition": "Neighbors, volunteer groups and community organizations.",
       "path": "core/with/community.md",
-      "hash": "1178d42499b1f2d90cc8ce6a78336f0a325d010652bbf52034a90460bba63e42"
+      "hash": "f3aff57a7d6e0d9717abb81bb737bd14ec5b8b469fc31065858d07253adf96a0"
     },
     {
       "tag": "with/customer",
@@ -233,7 +233,7 @@
       ],
       "definition": "Customers, clients and users you serve.",
       "path": "core/with/customer.md",
-      "hash": "2d6ae12183390f4ffa3123af8bae1f7873bc3485eebc9727bed5beb386eb3453"
+      "hash": "805a8035da4a637b1efd97fea52144cb1689b1c1934ee40a4c616d59b809c86f"
     },
     {
       "tag": "with/family",
@@ -246,7 +246,7 @@
       ],
       "definition": "Family members and household relatives.",
       "path": "core/with/family.md",
-      "hash": "a0df5bef736e8090e5d9e5140fdbd872cef75a8b099d376ec08d4571c2896ae4"
+      "hash": "ae95ddc1f13ee74532a84b70a6bba1bde9f671e69300b59d5d256a74eb485700"
     },
     {
       "tag": "with/friends",
@@ -259,7 +259,7 @@
       ],
       "definition": "Friends and social circles.",
       "path": "core/with/friends.md",
-      "hash": "bcfb045a485e56446e6ea93a87b4e708d2a04511aa3c2a84697b3706dd84bacd"
+      "hash": "14dd667e6ef3e502605ad661c7005d2a1757749d2b0a6ecfb6f2683e6f922d4d"
     },
     {
       "tag": "with/team",
@@ -272,7 +272,7 @@
       ],
       "definition": "Colleagues on your own team.",
       "path": "core/with/team.md",
-      "hash": "8cf588f4f96105f178019cc765da5144b1d699353e92c1f4abfbf1b9c005d799"
+      "hash": "5cb4e45a4e02538e41805e14db87184d54990308402728789411eb6d2d282ff3"
     },
     {
       "tag": "with/vendor",
@@ -285,7 +285,7 @@
       ],
       "definition": "Suppliers, partners and external providers.",
       "path": "core/with/vendor.md",
-      "hash": "cdeb34ed1c8e8c5ebda756e75cae4a476d1e8f940cbb7089b15ebb408ae86552"
+      "hash": "60d642cdf32dccb2e978643400da7744e660b97d69567118ebd57f0ecad4e8c0"
     },
     {
       "tag": "objective/example-objective",
@@ -298,7 +298,7 @@
       ],
       "definition": "Placeholder goal that several projects serve. Replace with a real objective.",
       "path": "teams/example-org/example-component/objective/example-objective.md",
-      "hash": "77571ce33ef1565cd206db61bab4b86eb08bfea0fe846e1a7fdf43c1680575ba"
+      "hash": "930bb3039481068813607083f19ac48adf4dbc352c8c89eee7418bb6c98111a9"
     },
     {
       "tag": "project/example-project",
@@ -311,7 +311,7 @@
       ],
       "definition": "Placeholder project owned by a team. Replace with a real project.",
       "path": "teams/example-org/example-component/project/example-project.md",
-      "hash": "63881acf68c49d5ce44d6f8588c1e59298581ff2a8bef1d89cf4cd46b9a315d9"
+      "hash": "42ab430e6072efda51b710de4edd85a0072345b8c6d5b14619297f66a3688b2f"
     },
     {
       "tag": "tool/example-service",
@@ -324,7 +324,7 @@
       ],
       "definition": "Placeholder for an internal service or system only this team uses. Shared tools such as git or github live in core.",
       "path": "teams/example-org/example-component/tool/example-service.md",
-      "hash": "c7f40164d2eadf424939fc3034ae8e92f571eea3bd1614de4a535a2d14039c23"
+      "hash": "7f88170edae364bd4dfa7c49b30efb8da442e82833c229dded00450d5288cdcc"
     },
     {
       "tag": "with/example-partner",
@@ -337,7 +337,7 @@
       ],
       "definition": "Placeholder for a named person or organization. Named parties belong in a team folder, not core.",
       "path": "teams/example-org/example-component/with/example-partner.md",
-      "hash": "a00d1c54a44157a4958874d09639bf47bf85daa1be4259e90e7ab5a9121df7a2"
+      "hash": "e3f434936c70a6b799555d897fa331938b4e002383424e5360d1165864233c53"
     }
   ]
 }

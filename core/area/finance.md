@@ -12,5 +12,3 @@ owner: core
 Definition: Money, budgeting, taxes and purchases.
 
 Use when: The effort involves personal or household finances.
-Don't use when: 
-Related: 

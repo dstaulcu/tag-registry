@@ -12,5 +12,3 @@ owner: core
 Definition: Customers, clients and users you serve.
 
 Use when: The note involves a customer or client.
-Don't use when: 
-Related: 

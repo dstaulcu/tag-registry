@@ -10,7 +10,3 @@ owner: core
 # tool/jira
 
 Definition: Jira for tracking work items.
-
-Use when: 
-Don't use when: 
-Related: 

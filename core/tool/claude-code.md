@@ -10,7 +10,3 @@ owner: core
 # tool/claude-code
 
 Definition: Claude Code CLI.
-
-Use when: 
-Don't use when: 
-Related: 

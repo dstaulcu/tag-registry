@@ -12,5 +12,3 @@ owner: core
 Definition: Suppliers, partners and external providers.
 
 Use when: The note involves an outside provider or partner.
-Don't use when: 
-Related: 
