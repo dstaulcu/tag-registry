@@ -1,11 +1,12 @@
 # tag-registry
 
-The shared tag registry: one public repo that is the single source of truth for a five-facet Obsidian tag scheme, so scheduled agents can roll up work across vaults and teams. APIs, MCP tools or internal mirrors may serve the same manifest, but this repo is the source.
+The shared tag registry: one public repo that is the single source of truth for a six-facet Obsidian tag scheme, so scheduled agents can roll up work across vaults and teams. APIs, MCP tools or internal mirrors may serve the same manifest, but this repo is the source.
 
 | Facet | Tag | Meaning |
 | --- | --- | --- |
 | area | `#area/<domain>` | Life domain: home, work, health, fitness, finance, learning |
 | with | `#with/<who>` | Who the effort involves |
+| objective | `#objective/<goal>` | A goal or direction that projects serve |
 | project | `#project/<name>` | A project or initiative, including a trip |
 | technique | `#technique/<capability>` | A capability or method, independent of tool |
 | tool | `#tool/<name>` | A product or project name |
@@ -29,7 +30,7 @@ registry.json            # generated manifest (version 2)
 ```
 - The core defines the facets and a few cross-team examples. Changes go through the core group.
 - Teams add values under existing facets in their own folder. A new facet must be proposed to the core.
-- Teams model any hierarchy. A team id is its folder path (for example `example-org/division-a/branch-1`) and `level` in `team.md` is free text, so name the tiers whatever your organization does (directorate, center, department, branch, ...). Tags in a team are visible to every team below it. `teams/example-org/` is a placeholder tree: copy it, rename the levels and remove `example: true`.
+- Teams model any hierarchy. A team id is its folder path (for example `example-org/example-component`; deeper nesting works the same way) and `level` in `team.md` is free text, so name the tiers whatever your organization does (directorate, center, department, branch, ...). Tags in a team are visible to every team below it. `teams/example-org/` is a placeholder tree: copy it, rename the levels and remove `example: true`.
 - A team tag used by several teams can be promoted into `core/` (move the note, keep the tag name).
 
 Each tag is one note named `<name>.md`. The `aliases` front matter equals the tag (for example `["#technique/job-scheduling"]`) so Tag Wrangler treats the note as the tag page.
