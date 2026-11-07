@@ -60,7 +60,7 @@ Definition: one line.
 
 Use when: ...
 Don't use when: ...
-Related: [[tool/hermes-agent]]
+Related: [[tool/github]]
 ```
 
 ## Manifest (version 2)
