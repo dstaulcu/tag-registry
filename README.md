@@ -1,24 +1,27 @@
 # tag-registry
 
-The shared tag registry: one public repo that is the single source of truth for a four-facet Obsidian tag scheme, so scheduled agents can roll up work across vaults and teams. APIs, MCP tools or internal mirrors may serve the same manifest, but this repo is the source.
+The shared tag registry: one public repo that is the single source of truth for a five-facet Obsidian tag scheme, so scheduled agents can roll up work across vaults and teams. APIs, MCP tools or internal mirrors may serve the same manifest, but this repo is the source.
 
 | Facet | Tag | Meaning |
 | --- | --- | --- |
-| project | `#project/<name>` | A project or initiative |
-| community | `#community/<who benefits>` | Who benefits from the work |
-| tactic | `#tactic/<capability>` | A capability or method, independent of tool |
+| area | `#area/<domain>` | Life domain: home, work, health, fitness, finance, learning |
+| with | `#with/<who>` | Who the effort involves |
+| project | `#project/<name>` | A project or initiative, including a trip |
+| technique | `#technique/<capability>` | A capability or method, independent of tool |
 | tool | `#tool/<name>` | A product or project name |
 
 ## Layout
 ```
 core/
   facets.md              # defines the facets
-  tactic/<name>.md       # cross-team examples
+  area/<name>.md         # home, work, health, ...
+  with/<name>.md         # generic kinds only (family, team, customer)
+  technique/<name>.md    # cross-team examples
   tool/<name>.md
 teams/<team>/
   team.md                # name, description, owners
   project/<name>.md
-  community/<name>.md    # tactic/ and tool/ folders are allowed too
+  area/<name>.md         # other facet folders are allowed too, e.g. with/aws
 .github/CODEOWNERS       # core/ -> core group; teams/<team>/ -> that team
 scripts/build-manifest.mjs
 registry.json            # generated manifest (version 2)
@@ -27,27 +30,28 @@ registry.json            # generated manifest (version 2)
 - Teams add values under existing facets in their own folder. A new facet must be proposed to the core.
 - A team tag used by several teams can be promoted into `core/` (move the note, keep the tag name).
 
-Each tag is one note named `<name>.md`. The `aliases` front matter equals the tag (for example `["#tactic/job-scheduling"]`) so Tag Wrangler treats the note as the tag page.
+Each tag is one note named `<name>.md`. The `aliases` front matter equals the tag (for example `["#technique/job-scheduling"]`) so Tag Wrangler treats the note as the tag page.
 
 ## Naming rules
 - Lowercase, hyphen-separated, no spaces.
-- Tactics are named by capability, not tool.
+- Techniques are named by capability, not tool.
 - Tools are named by product or project name.
+- Named people and organizations go under `teams/<team>/with/`, never in core.
 - Tag names are unique across core and all teams.
 - Never delete a tag. Mark it `status: deprecated` and set `replaced_by`.
 
 ## Note format
 ```
 ---
-tag: tactic/job-scheduling
-aliases: ["#tactic/job-scheduling"]
-facet: tactic
+tag: technique/job-scheduling
+aliases: ["#technique/job-scheduling"]
+facet: technique
 status: active        # active | proposed | deprecated
 replaced_by:          # for deprecated tags
 owner: dave
 ---
 
-# tactic/job-scheduling
+# technique/job-scheduling
 
 Definition: one line.
 

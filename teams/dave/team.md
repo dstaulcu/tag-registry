@@ -6,4 +6,4 @@ owners: ["@dstaulcu"]
 
 # Dave
 
-Seed team for the registry. Add values under `project/`, `community/`, `tactic/` or `tool/` in this folder.
+Seed team for the registry. Add values under `area/`, `with/`, `project/`, `technique/` or `tool/` in this folder.

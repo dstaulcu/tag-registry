@@ -1,0 +1,16 @@
+---
+tag: area/fitness
+aliases: ["#area/fitness"]
+facet: area
+status: active
+replaced_by:
+owner: dave
+---
+
+# area/fitness
+
+Definition: Exercise, training and races.
+
+Use when: Workouts, runs and training plans.
+Don't use when: 
+Related: 

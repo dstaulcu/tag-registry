@@ -10,4 +10,4 @@ Deprecating: set `status: deprecated` and `replaced_by: <facet>/<name>`. Never d
 
 New facets: open an issue or pull request against `core/facets.md`; the core group decides.
 
-History note: when the registry moved to the four-facet layout, the earlier plural tags (`projects/`, `techniques/`, `tools/`) were renamed in place to `project/`, `tactic/`, `tool/` once, because there were no other adopters. Do not rename tags this way again.
+History note: the registry has been restructured in place twice while it had no other adopters: plural tags became singular (`project/`, `tool/`), then `tactic/` became `technique/` and `community/` was replaced by `area/` and `with/`. Do not rename tags this way again.
