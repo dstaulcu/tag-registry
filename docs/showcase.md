@@ -12,9 +12,9 @@ Sites, vaults, plugins and write-ups that show effective or creative use of a ta
 
 ## Entries
 
-### Tag Registry Sync
-- Link: https://github.com/dstaulcu/obsidian-tag-registry
-- Shows: an Obsidian plugin that subscribes to a registry and imports its tags as notes, with preview and conflict handling.
+### Tag Registry Client
+- Link: https://github.com/dstaulcu/obsidian-tag-registry-client
+- Shows: an Obsidian plugin that subscribes to one or more registries and imports `core` and chosen team tags as one note per tag. It previews changes before writing, verifies hashes, and never overwrites local edits without asking.
 - Facets: all.
 
 ### example-org
