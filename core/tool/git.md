@@ -4,7 +4,7 @@ aliases: ["#tool/git"]
 facet: tool
 status: active
 replaced_by:
-owner: dave
+owner: core
 ---
 
 # tool/git

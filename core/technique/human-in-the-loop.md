@@ -4,7 +4,7 @@ aliases: ["#technique/human-in-the-loop"]
 facet: technique
 status: active
 replaced_by:
-owner: dave
+owner: core
 ---
 
 # technique/human-in-the-loop

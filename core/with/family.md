@@ -4,7 +4,7 @@ aliases: ["#with/family"]
 facet: with
 status: active
 replaced_by:
-owner: dave
+owner: core
 ---
 
 # with/family

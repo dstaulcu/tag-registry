@@ -4,7 +4,7 @@ aliases: ["#tool/obsidian"]
 facet: tool
 status: active
 replaced_by:
-owner: dave
+owner: core
 ---
 
 # tool/obsidian

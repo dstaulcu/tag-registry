@@ -4,7 +4,7 @@ aliases: ["#technique/relationship-building"]
 facet: technique
 status: active
 replaced_by:
-owner: dave
+owner: core
 ---
 
 # technique/relationship-building
