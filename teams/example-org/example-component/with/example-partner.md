@@ -4,7 +4,7 @@ aliases: ["#with/example-partner"]
 facet: with
 status: proposed
 replaced_by:
-owner: example-org/division-a/branch-1
+owner: example-org/example-component
 ---
 
 # with/example-partner

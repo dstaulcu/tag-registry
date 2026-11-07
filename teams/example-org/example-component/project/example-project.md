@@ -4,7 +4,7 @@ aliases: ["#project/example-project"]
 facet: project
 status: proposed
 replaced_by:
-owner: example-org/division-a/branch-1
+owner: example-org/example-component
 ---
 
 # project/example-project

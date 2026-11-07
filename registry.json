@@ -17,19 +17,11 @@
       "example": true
     },
     {
-      "id": "example-org/division-a",
-      "name": "Division A",
-      "description": "Placeholder middle tier.",
-      "level": "division",
+      "id": "example-org/example-component",
+      "name": "Example Component",
+      "description": "Placeholder second tier with sample tags.",
+      "level": "component",
       "parent": "example-org",
-      "example": true
-    },
-    {
-      "id": "example-org/division-a/branch-1",
-      "name": "Branch 1",
-      "description": "Placeholder lowest tier with sample tags.",
-      "level": "branch",
-      "parent": "example-org/division-a",
       "example": true
     }
   ],
@@ -362,28 +354,28 @@
     {
       "tag": "project/example-project",
       "facet": "project",
-      "source": "example-org/division-a/branch-1",
+      "source": "example-org/example-component",
       "status": "proposed",
       "replaced_by": null,
       "aliases": [
         "#project/example-project"
       ],
       "definition": "Placeholder project owned by a team. Replace with a real project.",
-      "path": "teams/example-org/division-a/branch-1/project/example-project.md",
-      "hash": "eb5f00b3f3f80c18c6d35d6448e4e1fe9fd49930bf14a11ece8ca0a0bd0869c3"
+      "path": "teams/example-org/example-component/project/example-project.md",
+      "hash": "72c38a27062b3602e37550cb17edb4758a4101051f108ddb0e85810b873a9900"
     },
     {
       "tag": "with/example-partner",
       "facet": "with",
-      "source": "example-org/division-a/branch-1",
+      "source": "example-org/example-component",
       "status": "proposed",
       "replaced_by": null,
       "aliases": [
         "#with/example-partner"
       ],
       "definition": "Placeholder for a named person or organization. Named parties belong in a team folder, not core.",
-      "path": "teams/example-org/division-a/branch-1/with/example-partner.md",
-      "hash": "830cf3182265e89ac3ce1d946bbd43a6b2985bd7246ea8092f17059a418ba7af"
+      "path": "teams/example-org/example-component/with/example-partner.md",
+      "hash": "a00d1c54a44157a4958874d09639bf47bf85daa1be4259e90e7ab5a9121df7a2"
     }
   ]
 }
