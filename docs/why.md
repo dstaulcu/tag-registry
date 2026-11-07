@@ -4,10 +4,10 @@
 Tags drift. One vault says `#tool/github`, another `#tools/gh`, a third `#git-hub`. A team of ten people ends up with ten vocabularies, so nothing can be rolled up, searched across vaults, or handed to an agent with confidence. Meaning drifts too: nobody remembers whether `#project/data-lake` was a project or a tool.
 
 ## What the registry does
-It is one repository that is the source of truth for the vocabulary. Every tag is a small note with a definition, a status and an owner. Clients (such as the [Tag Registry Sync](https://github.com/dstaulcu/obsidian-tag-registry) Obsidian plugin) copy the tags you subscribe to into your vault, so your tag pane, autocomplete and agents all see the same names and the same definitions.
+It is one repository that is the source of truth for the vocabulary. Every tag is a small note with a definition, a status and an owner. Clients copy the tags you subscribe to into the place you work (the first one, the [Tag Registry Sync](https://github.com/dstaulcu/obsidian-tag-registry) Obsidian plugin, imports them into a vault), so your tag pane, autocomplete and agents all see the same names and the same definitions.
 
-## Six facets as a query model
-Every tag is `<facet>/<name>`. Each facet answers a different question, so a single note can carry several and you can slice work along any of them.
+## Facets as a query model
+Every tag is `<facet>/<name>`. Each facet answers a different question, so a single note can carry several and you can slice work along any of them. The table lists the current core facets; the set can grow, and the manifest's `facets` list is authoritative.
 
 | Facet | Question it answers |
 | --- | --- |
