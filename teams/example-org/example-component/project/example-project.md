@@ -13,4 +13,4 @@ Definition: Placeholder project owned by a team. Replace with a real project.
 
 Use when: 
 Don't use when: 
-Related: 
+Related: [[objective/example-objective]], [[with/example-partner]], [[tool/example-service]], [[tool/github]], [[tool/obsidian]]

@@ -311,7 +311,20 @@
       ],
       "definition": "Placeholder project owned by a team. Replace with a real project.",
       "path": "teams/example-org/example-component/project/example-project.md",
-      "hash": "72c38a27062b3602e37550cb17edb4758a4101051f108ddb0e85810b873a9900"
+      "hash": "63881acf68c49d5ce44d6f8588c1e59298581ff2a8bef1d89cf4cd46b9a315d9"
+    },
+    {
+      "tag": "tool/example-service",
+      "facet": "tool",
+      "source": "example-org/example-component",
+      "status": "proposed",
+      "replaced_by": null,
+      "aliases": [
+        "#tool/example-service"
+      ],
+      "definition": "Placeholder for an internal service or system only this team uses. Shared tools such as git or github live in core.",
+      "path": "teams/example-org/example-component/tool/example-service.md",
+      "hash": "c7f40164d2eadf424939fc3034ae8e92f571eea3bd1614de4a535a2d14039c23"
     },
     {
       "tag": "with/example-partner",
