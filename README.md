@@ -1,11 +1,12 @@
 # tag-registry
 
-The shared tag registry: one public repo that is the single source of truth for a five-facet Obsidian tag scheme, so scheduled agents can roll up work across vaults and teams. APIs, MCP tools or internal mirrors may serve the same manifest, but this repo is the source.
+The shared tag registry: one public repo that is the single source of truth for a six-facet Obsidian tag scheme, so scheduled agents can roll up work across vaults and teams. APIs, MCP tools or internal mirrors may serve the same manifest, but this repo is the source.
 
 | Facet | Tag | Meaning |
 | --- | --- | --- |
 | area | `#area/<domain>` | Life domain: home, work, health, fitness, finance, learning |
 | with | `#with/<who>` | Who the effort involves |
+| objective | `#objective/<goal>` | A goal or direction that projects serve |
 | project | `#project/<name>` | A project or initiative, including a trip |
 | technique | `#technique/<capability>` | A capability or method, independent of tool |
 | tool | `#tool/<name>` | A product or project name |

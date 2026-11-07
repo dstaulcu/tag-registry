@@ -6,7 +6,7 @@ import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..');
-const FACETS = ['area', 'with', 'project', 'technique', 'tool'];
+const FACETS = ['area', 'with', 'objective', 'project', 'technique', 'tool'];
 const STATUSES = ['active', 'proposed', 'deprecated'];
 const NAME = /^[a-z0-9]+(-[a-z0-9]+)*$/;
 const check = process.argv.includes('--check');

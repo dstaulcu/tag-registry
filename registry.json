@@ -3,6 +3,7 @@
   "facets": [
     "area",
     "with",
+    "objective",
     "project",
     "technique",
     "tool"
@@ -350,6 +351,19 @@
       "definition": "Suppliers, partners and external providers.",
       "path": "core/with/vendor.md",
       "hash": "cdeb34ed1c8e8c5ebda756e75cae4a476d1e8f940cbb7089b15ebb408ae86552"
+    },
+    {
+      "tag": "objective/example-objective",
+      "facet": "objective",
+      "source": "example-org/example-component",
+      "status": "proposed",
+      "replaced_by": null,
+      "aliases": [
+        "#objective/example-objective"
+      ],
+      "definition": "Placeholder goal that several projects serve. Replace with a real objective.",
+      "path": "teams/example-org/example-component/objective/example-objective.md",
+      "hash": "77571ce33ef1565cd206db61bab4b86eb08bfea0fe846e1a7fdf43c1680575ba"
     },
     {
       "tag": "project/example-project",
