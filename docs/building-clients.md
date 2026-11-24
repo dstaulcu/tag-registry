@@ -21,6 +21,9 @@ A client reads a registry and puts its tags somewhere useful: a note-taking vaul
 - Treat `status: deprecated` as a prompt, not an action: show the `replaced_by` tag, and make rewriting existing notes opt-in.
 - Hide teams with `example: true` unless the user asks.
 
+## Tag pages
+A tag page is a note whose `aliases` contain `#<tag>`; every registry note is one. A client MAY also create pages for tags people use that no registry defines (see [tag pages and grooming](tag-pages-and-grooming.md)). It should never create a second page for a tag that already has one, and never stub a tag any configured registry defines.
+
 ## Privacy
 Contact only the hosts the user configured. Do not ship a default registry. Keep tokens out of logs, notices and diagnostics, and store them in the platform's secret storage when it exists.
 
@@ -28,7 +31,7 @@ Contact only the hosts the user configured. Do not ship a default registry. Keep
 Let users add several (for example public plus internal). On a duplicate tag, the earlier registry wins; make the order visible and editable.
 
 ## Reference implementation
-[Tag Registry Sync](https://github.com/dstaulcu/obsidian-tag-registry) is an Obsidian plugin that implements the behaviour above: three access methods, team picker, preview/apply, conflict handling, optional startup check. Its source is the best worked example of these rules.
+[Tag Registry Client](https://github.com/dstaulcu/obsidian-tag-registry-client) is an Obsidian plugin that implements the behaviour above: three access methods, team picker, preview/apply, conflict handling, optional startup check. Its source is the best worked example of these rules.
 
 ## Ideas for other clients
 See [ideas](ideas.md).
